@@ -81,7 +81,7 @@ const faqs = [
   { q: 'How does the Scout Agent work?', a: 'The Scout Agent simulates crawling Reddit-style posts for a given drug keyword, extracts candidate adverse event signals, and stores them in the Intake Vault for AI processing.' },
   { q: 'Can I use real patient data?', a: 'CoPharma applies PII masking before storing any text. However, for production use, ensure your deployment complies with HIPAA/GDPR requirements and consult your data governance team.' },
   { q: 'How do I configure Gmail email alerts?', a: 'Add GMAIL_USER and GMAIL_APP_PASSWORD to your .env file. Generate an App Password from Google Account → Security → App Passwords (requires 2FA enabled).' },
-  { q: 'What databases does CoPharma support?', a: 'SQLite by default (signalrx.db). Change DATABASE_URL in .env to connect to PostgreSQL or MySQL without any code changes — the SQLAlchemy ORM handles it.' },
+  { q: 'What databases does CoPharma support?', a: 'SQLite by default. Change DATABASE_URL in .env to connect to PostgreSQL or MySQL without any code changes — the SQLAlchemy ORM handles it.' },
 ]
 
 // ─── Sub-components ──────────────────────────────────────────

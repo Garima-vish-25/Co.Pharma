@@ -13,8 +13,8 @@ const MOCK_XML = `<?xml version="1.0" encoding="UTF-8"?>
     <messagetype>ichicsr</messagetype>
     <messageformatversion>2.1</messageformatversion>
     <messageformatrelease>2</messageformatrelease>
-    <messagenumb>MSG-20250507-SRX-042</messagenumb>
-    <messagesenderidentifier>SIGNALRX-AI-V2</messagesenderidentifier>
+    <messagenumb>MSG-20250507-CPHARMA-042</messagenumb>
+    <messagesenderidentifier>COPHARMA-AI-V2</messagesenderidentifier>
     <messagereceiveridentifier>CDSCO-PV-INDIA</messagereceiveridentifier>
     <messagedateformat>102</messagedateformat>
     <messagedate>20250507</messagedate>
