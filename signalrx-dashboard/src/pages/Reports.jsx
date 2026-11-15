@@ -248,7 +248,7 @@ export default function Reports({ openModal }) {
       const now     = new Date().toISOString()
       const content = [
         '='.repeat(60),
-        `  AyuScout V2 — ${reportType} Report`,
+        `  CoPharma — ${reportType} Report`,
         `  Project: ${project}`,
         `  Generated: ${now}`,
         '='.repeat(60),
@@ -267,7 +267,7 @@ export default function Reports({ openModal }) {
         }),
         '',
         '='.repeat(60),
-        '  Powered by AyuScout V2 | Requires human review before submission',
+        '  Powered by CoPharma | Requires human review before submission',
         '='.repeat(60),
       ].join('\n')
 
@@ -275,7 +275,7 @@ export default function Reports({ openModal }) {
       const url  = URL.createObjectURL(blob)
       const a    = document.createElement('a')
       a.href = url
-      a.download = `AyuScout_${reportType.replace(/\s+/g, '_')}_${Date.now()}.txt`
+      a.download = `CoPharma_${reportType.replace(/\s+/g, '_')}_${Date.now()}.txt`
       document.body.appendChild(a); a.click(); a.remove()
       URL.revokeObjectURL(url)
       openModal(null)

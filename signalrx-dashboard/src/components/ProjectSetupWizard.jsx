@@ -133,7 +133,7 @@ export default function ProjectSetupWizard({ onClose, currentUser }) {
         source_url: agentUrl,
         domain,
         scraper_type: 'agentic_generated',
-        generated_by: 'SignalRx Agentic Crawler v2.1',
+        generated_by: 'CoPharma Agentic Crawler v2.1',
         selectors: {
           post_title: 'h1#firstHeading, h1',
           post_body: 'div#mw-content-text p, article p, main p',

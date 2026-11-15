@@ -186,7 +186,7 @@ export default function HeroCinematic({ onEnter }) {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="hc-ld-name">AyuScout V2</div>
+            <div className="hc-ld-name">CoPharma</div>
             <div className="hc-ld-sub">Pharmacovigilance Intelligence</div>
             <div className="hc-ld-track"><div className="hc-ld-fill" style={{width:`${loadPct}%`}}/></div>
             <div className="hc-ld-pct">{loadPct}%</div>
@@ -248,7 +248,7 @@ export default function HeroCinematic({ onEnter }) {
             <span className="hl-m">Safer Tomorrow.</span>
           </h1>
           <p className="hc-desc">
-            AyuScout V2 uses AI to detect, analyze, and prevent adverse drug reactions
+            CoPharma uses AI to detect, analyze, and prevent adverse drug reactions
             — real-time intelligence at global scale.
           </p>
         </div>
@@ -346,7 +346,7 @@ export default function HeroCinematic({ onEnter }) {
             <circle cx="18" cy="18" r="15" stroke="#6366f1" strokeWidth="2.5" fill="none"/>
             <circle cx="18" cy="18" r="7" fill="#6366f1" opacity="0.4"/>
           </svg>
-          <span>AyuScout V2</span>
+          <span>CoPharma</span>
           <span className="hc-sep">·</span>
           <span className="hc-bsub">Pharmacovigilance Intelligence</span>
         </div>

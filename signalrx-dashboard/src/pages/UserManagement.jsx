@@ -194,7 +194,7 @@ export default function UserManagement({ openModal, currentUser }) {
           </div>
           <div className="form-group">
             <label className="form-label">Email</label>
-            <input className="form-input" type="email" placeholder="user@ayuscout.ai"
+            <input className="form-input" type="email" placeholder="user@copharma.ai"
               onChange={e => formData.email = e.target.value} />
           </div>
           <div className="form-group">

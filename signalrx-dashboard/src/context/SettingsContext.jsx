@@ -11,7 +11,7 @@ const SettingsContext = createContext(null)
 
 // Default settings (mirrors AppSettings model defaults)
 const DEFAULTS = {
-  org_name:               'AyuScout Pharma',
+  org_name:               'CoPharma',
   contact_email:          'admin@ayuscout.ai',
   timezone:               'Asia/Kolkata (UTC+5:30)',
   dark_mode:              false,

@@ -1,5 +1,5 @@
 /**
- * Configuration for the SignalRX Dashboard
+ * Configuration for the CoPharma frontend
  */
 
 // Use environment variable for API base, fallback to localhost for development

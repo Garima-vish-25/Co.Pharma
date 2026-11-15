@@ -176,7 +176,7 @@ export default function SelfHealingTerminal() {
     clearAll()
     setIsCrawling(true)
     setPhase('crawling')
-    pushLog(`[INIT] Connecting to AyuScout crawler backend at ${API_BASE}…`, 'INIT')
+    pushLog(`[INIT] Connecting to CoPharma crawler backend at ${API_BASE}…`, 'INIT')
     pushLog(`[INIT] Drug/keyword: "${keyword.trim()}" | Source: ${sourceId}`, 'INIT')
     if (url.trim()) pushLog(`[FETCH] Target URL: ${url.trim()}`, 'FETCH')
 
@@ -414,7 +414,7 @@ export default function SelfHealingTerminal() {
               <span style={{ width:12, height:12, borderRadius:'50%', background:'#a6e3a1', display:'block' }}/>
               <span style={{ flex:1, textAlign:'center', fontSize:11, fontWeight:600,
                 color:'#6c7086', fontFamily:'monospace' }}>
-                ayuscout-crawler — live console
+                CoPharma Crawler — live console
                 {sessionId != null && <span style={{ color:'#45475a' }}> — session #{sessionId}</span>}
               </span>
               <MdTerminal size={14} style={{ color:'#6c7086' }}/>
@@ -440,7 +440,7 @@ export default function SelfHealingTerminal() {
               {phase === 'done' && logs.length > 0 && (
                 <div style={{ marginTop:12, paddingTop:12, borderTop:'1px solid #313244',
                   fontFamily:'monospace', fontSize:12 }}>
-                  <span style={{ color:'#a6e3a1' }}>ayuscout</span>
+                  <span style={{ color:'#a6e3a1' }}>copharma</span>
                   <span style={{ color:'#cdd6f4' }}>@intelligence-vault:~$ </span>
                   <Cursor/>
                 </div>

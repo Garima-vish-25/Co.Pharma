@@ -212,7 +212,7 @@ export default function Login({ onLogin }) {
         {/* ── Form area ── */}
         <div className={tabAnim ? 'lc-fade-out' : 'lc-fade-in'}>
           <h2 className="lc-ftitle">
-            {mode === 'login' ? 'Welcome back 👋' : 'Join AyuScout V2'}
+            {mode === 'login' ? 'Welcome back 👋' : 'Join CoPharma'}
           </h2>
           <p className="lc-fsub">
             {mode === 'login'

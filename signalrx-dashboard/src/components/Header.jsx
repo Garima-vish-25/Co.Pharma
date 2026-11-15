@@ -190,7 +190,7 @@ export default function Header({ title, onNavigate }) {
                 borderRadius: 10, boxShadow: '0 4px 24px rgba(0,0,0,0.15)', overflow: 'hidden', marginTop: 8
               }}>
                 <div style={{ padding: '12px 16px', borderBottom: '1px solid var(--border)', fontWeight: 700, fontSize: 14 }}>
-                  📖 AyuScout V2 Help
+                  📖 CoPharma Help
                 </div>
                 {[
                   { icon: '🚀', title: 'Run AI Analysis', desc: 'Paste any patient report or social media post in the Dashboard command center.' },
@@ -204,7 +204,7 @@ export default function Header({ title, onNavigate }) {
                   </div>
                 ))}
                 <div style={{ padding: '10px 16px', fontSize: 12, color: 'var(--muted)' }}>
-                  AyuScout V2 · Backend: <code>{API_BASE}</code>
+                  CoPharma · Backend: <code>{API_BASE}</code>
                 </div>
               </div>
             )}

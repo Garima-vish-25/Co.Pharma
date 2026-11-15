@@ -55,7 +55,7 @@ const MOCK_XML = `<?xml version="1.0" encoding="UTF-8"?>
     <summary>
       <narrativeincludeclinical>Patient taking Lisinopril 10mg for hypertension
       reported facial swelling and throat tightness 10 minutes after dose.
-      WHO-UMC Causality: Certain. Signal detected via SignalRx AI platform.</narrativeincludeclinical>
+      WHO-UMC Causality: Certain. Signal detected via CoPharma.</narrativeincludeclinical>
     </summary>
   </safetyreport>
 </ichicsr>`
@@ -432,7 +432,7 @@ export default function CommandCenter() {
             Competitive Differentiators
           </h1>
           <p style={{ fontSize: 13, color: 'var(--text2)', lineHeight: 1.5 }}>
-            Three enterprise-grade capabilities that set SignalRx AI apart from every other pharmacovigilance platform.
+            Three enterprise-grade capabilities that set CoPharma apart from every other pharmacovigilance platform.
             Built for AI Bharat 2.0 — demonstrating real-world, production-grade innovation.
           </p>
         </div>

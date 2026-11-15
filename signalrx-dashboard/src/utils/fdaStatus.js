@@ -1,5 +1,5 @@
 /**
- * AyuScout V2 — Canonical FDA Status Utility
+ * CoPharma — Canonical FDA Status Utility
  * =============================================
  * Single source of truth for FDA badge/status logic.
  * Used in: Alerts, DataExplorer, Reports, FDAEvidenceModal.

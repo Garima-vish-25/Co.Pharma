@@ -601,7 +601,7 @@ export default function Alerts({ openModal }) {
             }} />
             Live AI Signals ({filtered.length})
           </span>
-          <span style={{ fontSize: 12, color: 'var(--muted)' }}>AyuScout V2 Intelligence Vault</span>
+          <span style={{ fontSize: 12, color: 'var(--muted)' }}>CoPharma Intelligence Vault</span>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
           {loading ? (

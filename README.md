@@ -2,7 +2,6 @@
 
 > **"From Reddit to Regulatory Report in seconds — powered by Agentic AI."**
 
-[![AI Bharat 2.0](https://img.shields.io/badge/AI%20Bharat%202.0-Hackathon%20Submission-8B5CF6?style=for-the-badge)](https://github.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Pipeline-10B981?style=for-the-badge)](https://github.com/langchain-ai/langgraph)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge)](https://fastapi.tiangolo.com)
 [![React + Vite](https://img.shields.io/badge/React%2019-Frontend-61DAFB?style=for-the-badge)](https://react.dev)

@@ -1,5 +1,5 @@
 /**
- * AyuScout V2 — Frontend PII Sanitizer (sanitizePII.js)
+ * CoPharma — Frontend PII Sanitizer (sanitizePII.js)
  * ======================================================
  * Client-side FIRST LAYER of PII protection.
  * Runs synchronously BEFORE any API call or store update.

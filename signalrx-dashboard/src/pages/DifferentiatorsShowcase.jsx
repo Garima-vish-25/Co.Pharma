@@ -211,7 +211,7 @@ function SeverityDecoupling() {
           <MdCompareArrows size={20} style={{ color: '#F59E0B', flexShrink: 0 }} />
           <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>
             <strong style={{ color: '#F59E0B' }}>Key Insight:</strong> Our AI decouples emotional tone from clinical severity.
-            A calm post can be CRITICAL, while an angry post can be harmless. This is what sets AyuScout apart from basic sentiment tools.
+            A calm post can be CRITICAL, while an angry post can be harmless. This is what sets CoPharma apart from basic sentiment tools.
           </span>
         </div>
       </div>
@@ -269,7 +269,7 @@ function E2BExport() {
   }
 
   const xmlSnippet = `<?xml version="1.0" encoding="UTF-8"?>
-<!-- AyuScout V2 — ICH E2B(R3) ICSR | Generated: ${new Date().toISOString().slice(0,19)}Z -->
+<!-- CoPharma — ICH E2B(R3) ICSR | Generated: ${new Date().toISOString().slice(0,19)}Z -->
 <ichicsr lang="en" xmlns="urn:hl7-org:v3">
   <ichicsrmessageheader>
     <messagetype>ichicsr</messagetype>
@@ -294,7 +294,7 @@ function E2BExport() {
         <drugreactionassessment>
           <drugassessmentmethod>WHO-UMC Causality System</drugassessmentmethod>
           <drugassessmentresult>Certain</drugassessmentresult>
-          <drugassessmentsource>AyuScout V2 AI (Confidence: 92%)</drugassessmentsource>
+          <drugassessmentsource>CoPharma AI (Confidence: 92%)</drugassessmentsource>
         </drugreactionassessment>
       </drug>
       <reaction>
@@ -306,7 +306,7 @@ function E2BExport() {
       <summary>
         <narrativeincludeclinical>
           Patient reported facial swelling 3 months after initiating Lisinopril
-          therapy for hypertension. WHO-UMC causality: Certain. AyuScout V2
+          therapy for hypertension. WHO-UMC causality: Certain. CoPharma
           AI reasoning: strong temporal relationship, known mechanism.
           PII masked by k-Anonymity vault per DPDP Act 2023.
         </narrativeincludeclinical>
@@ -449,7 +449,7 @@ export default function DifferentiatorsShowcase() {
             Competitive Differentiators
           </h1>
           <p style={{ fontSize: 13, color: 'var(--muted)' }}>
-            Three features that set AyuScout apart from every other pharmacovigilance tool
+            Three features that set CoPharma apart from every other pharmacovigilance tool
           </p>
         </div>
         <div style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>

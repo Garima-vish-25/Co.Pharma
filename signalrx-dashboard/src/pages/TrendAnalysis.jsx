@@ -367,7 +367,7 @@ function downloadReport(stats, sevCounts, causalityCounts, topDrugs, topEvents) 
 
   const lines = [
     '============================================================',
-    '   AyuScout V2 — Trend Analysis Report',
+    '   CoPharma — Trend Analysis Report',
     `   Generated: ${now}`,
     '============================================================',
     '',
@@ -388,7 +388,7 @@ function downloadReport(stats, sevCounts, causalityCounts, topDrugs, topEvents) 
     ...(topEvents || []).map(([e, c], i) => `${String(i + 1).padStart(2)}. ${e.padEnd(25)} ${c} reports`),
     '',
     '============================================================',
-    '   Powered by AyuScout V2 AI Pharmacovigilance Engine',
+    '   Powered by CoPharma AI Pharmacovigilance Engine',
     '   This report requires human medical review before regulatory submission.',
     '============================================================',
   ]
@@ -398,7 +398,7 @@ function downloadReport(stats, sevCounts, causalityCounts, topDrugs, topEvents) 
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = `AyuScout_TrendReport_${Date.now()}.txt`
+  a.download = `CoPharma_TrendReport_${Date.now()}.txt`
   document.body.appendChild(a)
   a.click()
   a.remove()

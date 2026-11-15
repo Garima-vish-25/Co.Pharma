@@ -1,5 +1,5 @@
 /**
- * AyuScout V2 — Centralized Zustand Store
+ * CoPharma — Centralized Zustand Store
  * =========================================
  * Single source of truth for all AI analysis data.
  * ALL tabs subscribe to this store — no local state duplication.
@@ -102,7 +102,7 @@ export function normalizeReport(r) {
     pii_types:   r.pii_types_detected || [],
     status:      r.status || 'pending',
     statusColor: r.statusColor || 'neutral',
-    author:      r.author || 'AyuScout V2 AI',
+    author:      r.author || 'CoPharma AI',
     e2b_available: r.e2b_available || false,
     created_at:  r.created_at || null,
     // ── FDA Evidence ─────────────────────────────────────────────

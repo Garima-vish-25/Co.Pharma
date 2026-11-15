@@ -67,7 +67,7 @@ const guides = [
     steps: [
       { icon: '⚙️', title: 'Open Settings', desc: 'Navigate to Settings from the ADMINISTRATION section.' },
       { icon: '🔗', title: 'Enter webhook URL', desc: 'Paste your Slack / Teams / custom webhook URL in the Alerting section.' },
-      { icon: '💾', title: 'Save settings', desc: 'Hit Save. AyuScout will POST JSON payloads to that URL on new signals.' },
+      { icon: '💾', title: 'Save settings', desc: 'Hit Save. CoPharma will POST JSON payloads to that URL on new signals.' },
       { icon: '🔔', title: 'Test alert', desc: 'Run AI analysis on a Critical case — your channel gets notified instantly.' },
     ]
   }
@@ -75,13 +75,13 @@ const guides = [
 
 // ─── FAQ data ────────────────────────────────────────────────
 const faqs = [
-  { q: 'Which LLM does AyuScout use?', a: 'AyuScout V2 uses Ollama with the llama3.2:1b model locally. No data leaves your machine — 100% on-premise.' },
+  { q: 'Which LLM does CoPharma use?', a: 'CoPharma uses Ollama with the llama3.2:1b model locally. No data leaves your machine — 100% on-premise.' },
   { q: 'What is the WHO-UMC causality score?', a: 'The WHO-UMC algorithm classifies adverse drug reactions into: Certain, Probable, Possible, Unlikely, and Unassessable — based on temporal relationship, dechallenge/rechallenge data, and prior knowledge.' },
-  { q: 'What is an E2B XML export?', a: 'ICH E2B is the international standard format for Individual Case Safety Reports (ICSRs). AyuScout generates both R3 (current) and R2 (legacy) formats for submission to regulatory authorities like CDSCO, FDA, or EMA.' },
+  { q: 'What is an E2B XML export?', a: 'ICH E2B is the international standard format for Individual Case Safety Reports (ICSRs). CoPharma generates both R3 (current) and R2 (legacy) formats for submission to regulatory authorities like CDSCO, FDA, or EMA.' },
   { q: 'How does the Scout Agent work?', a: 'The Scout Agent simulates crawling Reddit-style posts for a given drug keyword, extracts candidate adverse event signals, and stores them in the Intake Vault for AI processing.' },
-  { q: 'Can I use real patient data?', a: 'AyuScout applies PII masking before storing any text. However, for production use, ensure your deployment complies with HIPAA/GDPR requirements and consult your data governance team.' },
+  { q: 'Can I use real patient data?', a: 'CoPharma applies PII masking before storing any text. However, for production use, ensure your deployment complies with HIPAA/GDPR requirements and consult your data governance team.' },
   { q: 'How do I configure Gmail email alerts?', a: 'Add GMAIL_USER and GMAIL_APP_PASSWORD to your .env file. Generate an App Password from Google Account → Security → App Passwords (requires 2FA enabled).' },
-  { q: 'What databases does AyuScout support?', a: 'SQLite by default (signalrx.db). Change DATABASE_URL in .env to connect to PostgreSQL or MySQL without any code changes — the SQLAlchemy ORM handles it.' },
+  { q: 'What databases does CoPharma support?', a: 'SQLite by default (signalrx.db). Change DATABASE_URL in .env to connect to PostgreSQL or MySQL without any code changes — the SQLAlchemy ORM handles it.' },
 ]
 
 // ─── Sub-components ──────────────────────────────────────────

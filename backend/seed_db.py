@@ -2,7 +2,7 @@
 AyuScout V2 — Database Seeder
 ==============================
 Inserts 15 realistic, pre-processed pharmacovigilance records
-into the SQLite database for hackathon demo purposes.
+into the SQLite database for demo purposes.
 
 Usage:
     python seed_db.py
@@ -389,7 +389,7 @@ def seed_database():
     
     print("\n" + "=" * 60)
     print(f"[SEED] Successfully seeded 15 pharmacovigilance records!")
-    print(f"[SEED] Database is ready for hackathon demo.")
+    print(f"[SEED] Database is ready for demo.")
     print("=" * 60 + "\n")
 
 

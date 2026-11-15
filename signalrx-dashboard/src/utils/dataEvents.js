@@ -1,5 +1,5 @@
 /**
- * AyuScout Global Data Refresh Event Bus
+ * CoPharma Global Data Refresh Event Bus
  * 
  * Usage — fire from Dashboard after analysis:
  *   import { fireDataUpdated } from '../utils/dataEvents'

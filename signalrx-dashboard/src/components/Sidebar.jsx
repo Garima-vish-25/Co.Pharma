@@ -102,7 +102,7 @@ export default function Sidebar({ activePage, onNavigate, currentUser, onLogout 
         <div className="sidebar-logo">
           <div className="logo-icon"><MdBiotech /></div>
           <div className="logo-text">
-            <span className="logo-title">AyuScout</span>
+            <span className="logo-title">CoPharma</span>
             <span className="logo-subtitle">AI Intelligence</span>
           </div>
         </div>

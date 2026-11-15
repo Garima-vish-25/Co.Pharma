@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════
-   Login.css  —  AyuScout V2  |  Centered Auth Page
+   Login.css  —  CoPharma  |  Centered Auth Page
    Replaces the split-screen layout with a centered card
    ══════════════════════════════════════════════════════════ */
 
@@ -113,7 +113,7 @@
 
 /* ── Brand watermark at bottom ── */
 .lg-root::after {
-  content: '🛡️ AyuScout V2 · Pharmacovigilance Intelligence';
+  content: '🛡️ CoPharma · Pharmacovigilance Intelligence';
   position: absolute;
   bottom: 16px;
   left: 50%;

@@ -1,5 +1,5 @@
 /**
- * Centralized API client for AyuScout V2
+ * Centralized API client for CoPharma
  * Wraps fetch with: base URL, error handling, JSON parsing, and toast notifications.
  */
 import { API_BASE } from '../config'
